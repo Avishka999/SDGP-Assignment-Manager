@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Upload</title>
+
+  <!--external css sheets-->
+  <link rel="stylesheet" href="/SDGP-Nullpoint-G22/1_FrontEnd/CSS/style.css" />
+  <link rel="stylesheet" href="/SDGP-Nullpoint-G22/1_FrontEnd/CSS/upload.css" />
+
+  <script defer src="/SDGP-Nullpoint-G22/1_FrontEnd/JS/upload.js"></script>
+
+</head>
+
+<header>
+  <a href="/SDGP-Nullpoint-G22/1_FrontEnd/HTML/index.html">
+    <img class="logo" src="/SDGP-Nullpoint-G22/1_FrontEnd/Images/logo.png" />
+  </a>
+
+</header>
+
+<section class="frame">
+  <div class="head-title">
+    Upload a Document
+    <p>Supported Types Pdf, dox,doc & png</p>
+  </div>
+  <div class="drag-section">
+    <div class="drag">
+      <div class="drag-container">
+        <img class="upload-img" src="/SDGP-Nullpoint-G22/1_FrontEnd/Images/cloud_upload.png" alt="">
+        <h2>Drag and drop or browse</h2>
+        <div class="upload-section"> 
+          <input name="" type="file" />
+          <br><br>
+          <button class="btn" >Upload</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <img class="footer-logo" src="">
+    <div class="footer-title">
+      <h2>Join Assignment Manager</h2>
+      <p>Subscribe to get alerted on new updates and offers</p>
+
+    </div>
+
+    <div class="footerForm">
+      <input type="text" placeholder="Enter Your Email" class="widget-input footerEmail">
+      <button class="primary-btn subscribe">Subscribe</button>
+    </div>
+
+
+    <div class="hr"></div>
+    <div class="footer-bottom">
+      <div class="footer-btm-cnt">
+        <p>Privacy policy</p>
+      </div>
+      <div class="footer-btm-cnt">
+        <p>Terms and Conditions</p>
+      </div>
+      <div class="footer-btm-cnt">
+        <p>Covid Guidelines</p>
+      </div>
+    </div>
+    <div class="cpryt">
+      <p>@Assignment Manager 2022</p>
+    </div>
+  </footer>
+</section>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCeXR5EW5_hbrXoZ8eAdcCcXP6To7LMtNo",
+    authDomain: "assignment-manager-b9138.firebaseapp.com",
+    projectId: "assignment-manager-b9138",
+    storageBucket: "assignment-manager-b9138.appspot.com",
+    messagingSenderId: "497245345518",
+    appId: "1:497245345518:web:88d2a75f1a9616d1f245ff",
+    measurementId: "G-8YRRW7N1GW"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+venv/
+
+4_RefferenceResultGen/__pycache__/
+researchGap/__pycache__/
+dependancies/__pycache__/
+luxuryFeatures/__pycache__/
+2_OCRandRawText/__pycache__/
+Tesseract-OCR/
+
+
+Test/
+
+#Randomly generated files
+.google-cookie
